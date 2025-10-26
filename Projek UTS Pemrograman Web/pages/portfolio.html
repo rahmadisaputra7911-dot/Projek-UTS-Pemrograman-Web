@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rahmadi Saputra">
+    <meta name="description" content="Portfolio dan Karya Rahmadi Saputra - Project Web Development dan Programming">
+    <title>Portfolio - Rahmadi Saputra</title>
+    <!-- Link ke CSS Eksternal -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/icon">
+</head>
+<body>
+    <!-- Navigation Bar - Konsisten di semua halaman -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Rahmadi<span class="highlight">.</span>Dev</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Me</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Page -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">My <span class="gradient-text">Portfolio</span> 💼</h1>
+            <p class="page-subtitle"><em>A collection of my best work and projects</em></p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="portfolio-main">
+        <!-- Section: Introduction -->
+        <section class="portfolio-intro">
+            <div class="container">
+                <article class="intro-content">
+                    <h2>Check Out My Projects! 🚀</h2>
+                    <p>
+                        Selamat datang di <strong>portfolio section</strong>! Di sini kamu bisa liat 
+                        berbagai <em>project dan karya</em> yang udah aku buat selama perjalanan 
+                        belajar programming. Setiap project adalah <mark>stepping stone</mark> 
+                        menuju level yang lebih tinggi!
+                    </p>
+                    <p>
+                        <q cite="Steve Jobs">The only way to do great work is to love what you do</q>, 
+                        dan aku truly love every single project yang aku kerjakan. Let's dive in!
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section: Projects Table -->
+        <section class="projects-table-section">
+            <div class="container">
+                <h2 class="section-title">Daftar Project & Karya 📊</h2>
+                
+                <!-- Tabel dengan styling modern -->
+                <div class="table-container">
+                    <table class="projects-table">
+                        <!-- Table Head -->
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Nama Proyek</th>
+                                <th>Deskripsi</th>
+                                <th>Tahun</th>
+                                <th>Teknologi yang Digunakan</th>
+                            </tr>
+                        </thead>
+                        
+                        <!-- Table Body -->
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><strong>Personal Portfolio Website</strong></td>
+                                <td>Website portfolio pribadi dengan desain modern dan futuristic menggunakan gradient pink-purple</td>
+                                <td>2024</td>
+                                <td>HTML5, CSS3, JavaScript</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><strong>Student Management System</strong></td>
+                                <td>Aplikasi manajemen data mahasiswa dengan fitur CRUD lengkap dan database terintegrasi</td>
+                                <td>2024</td>
+                                <td>Java, MySQL, Swing UI</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><strong>E-Commerce Landing Page</strong></td>
+                                <td>Responsive landing page untuk toko online dengan animasi modern dan user-friendly design</td>
+                                <td>2023</td>
+                                <td>HTML, CSS, Bootstrap</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><strong>Calculator App</strong></td>
+                                <td>Aplikasi kalkulator scientific dengan interface yang clean dan functionality lengkap</td>
+                                <td>2023</td>
+                                <td>C++, Qt Framework</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><strong>Weather Dashboard</strong></td>
+                                <td>Dashboard cuaca real-time menggunakan API integration dengan data visualization</td>
+                                <td>2024</td>
+                                <td>JavaScript, API, Chart.js</td>
+                            </tr>
+                            <!-- Row dengan colspan untuk highlight -->
+                            <tr class="highlight-row">
+                                <td colspan="2"><strong>Featured Project</strong></td>
+                                <td colspan="3">
+                                    <em>Smart Attendance System</em> - Sistem presensi otomatis menggunakan 
+                                    face recognition dan machine learning untuk kampus. 
+                                    <strong>Currently in development!</strong> 🎯
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><strong>Todo List App</strong></td>
+                                <td>Aplikasi task management dengan local storage dan drag-and-drop functionality</td>
+                                <td>2023</td>
+                                <td>HTML, CSS, JavaScript</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><strong>Blog Website</strong></td>
+                                <td>Multi-page blog website dengan CMS sederhana dan responsive design</td>
+                                <td>2024</td>
+                                <td>HTML, CSS, PHP, MySQL</td>
+                            </tr>
+                            <!-- Row dengan rowspan untuk kategori -->
+                            <tr>
+                                <td rowspan="2" class="category-cell">8-9</td>
+                                <td><strong>Mini Games Collection</strong></td>
+                                <td>Snake Game - Classic game dengan high score system</td>
+                                <td>2023</td>
+                                <td>JavaScript, Canvas API</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Mini Games Collection</strong></td>
+                                <td>Tic Tac Toe - Two player game dengan AI opponent</td>
+                                <td>2023</td>
+                                <td>C++, Console</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td><strong>Recipe Finder App</strong></td>
+                                <td>Aplikasi pencari resep makanan dengan filter ingredients dan cooking time</td>
+                                <td>2024</td>
+                                <td>React, API, Tailwind CSS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Table Caption/Note -->
+                <div class="table-note">
+                    <p>
+                        <strong>Note:</strong> Semua project di atas merupakan hasil karya pribadi 
+                        yang dibuat selama proses pembelajaran. <em>More projects coming soon!</em> 🚀
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Project Highlights dengan Cards -->
+        <section class="project-highlights">
+            <div class="container">
+                <h2 class="section-title">Project Highlights 🌟</h2>
+                
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="../images/project1.jpg" alt="Personal Portfolio Website Screenshot">
+                        </div>
+                        <div class="project-content">
+                            <h3>Personal Portfolio</h3>
+                            <p>
+                                Website portfolio dengan <strong>modern design</strong> dan 
+                                <em>interactive elements</em>. Menggunakan gradient pink-purple 
+                                theme dengan cyberpunk aesthetics.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="../images/project2.jpg" alt="Student Management System Interface">
+                        </div>
+                        <div class="project-content">
+                            <h3>Student Management</h3>
+                            <p>
+                                <mark>Full-featured application</mark> untuk manage data mahasiswa. 
+                                Complete dengan CRUD operations dan database integration.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Desktop App</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="../images/project3.jpg" alt="Weather Dashboard Preview">
+                        </div>
+                        <div class="project-content">
+                            <h3>Weather Dashboard</h3>
+                            <p>
+                                Real-time weather data visualization dengan <cite>API integration</cite>. 
+                                <strong>Clean UI</strong> dan <em>responsive design</em> untuk semua devices.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">API</span>
+                                <span class="tag">Charts</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Technologies Used -->
+        <section class="tech-stack-section">
+            <div class="container">
+                <h2 class="section-title">Technologies I Work With 🛠️</h2>
+                
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-icon">🌐</div>
+                        <h4>Frontend</h4>
+                        <p>HTML, CSS, JavaScript, React</p>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">⚙️</div>
+                        <h4>Backend</h4>
+                        <p>Java, C++, Python, PHP</p>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">💾</div>
+                        <h4>Database</h4>
+                        <p>MySQL, PostgreSQL, MongoDB</p>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">🎨</div>
+                        <h4>Design</h4>
+                        <p>Figma, Canva, Photoshop</p>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">🔧</div>
+                        <h4>Tools</h4>
+                        <p>Git, VS Code, IntelliJ</p>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">📱</div>
+                        <h4>Others</h4>
+                        <p>API, Bootstrap, jQuery</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: GitHub Link -->
+        <section class="github-section">
+            <div class="container">
+                <article class="github-card">
+                    <h2>Want to See the Code? 👨‍💻</h2>
+                    <p>
+                        All my projects are <strong>open source</strong> and available on GitHub! 
+                        Feel free to <em>explore, fork, and contribute</em>.
+                    </p>
+                    <!-- Link Eksternal ke GitHub -->
+                    <a href="https://github.com" target="_blank" class="btn btn-github" rel="noopener noreferrer">
+                        <span>Visit My GitHub</span>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Let's Work Together! 🤝</h2>
+                <p>Interested in collaboration or have a project idea? Let's connect!</p>
+                <div class="cta-buttons">
+                    <a href="about.html" class="btn btn-primary">About Me</a>
+                    <a href="https://linkedin.com" target="_blank" class="btn btn-secondary" rel="noopener noreferrer">Contact Me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+        
+            <p>🎵 Now Playing: Lofi Beats</p>
+            <audio controls src="../media/music.mp3" style="width: 100%; max-width: 400px; margin-top: 10px;"></audio>
+        
+            <p>&copy; 2024 Rahmadi Saputra. Made with ❤️ and lots of ☕</p>
+            <p><em>Pemrograman Web - Universitas Negeri Padang</em></p>
+        </div>
+    </footer>
+</body>
+</html>
